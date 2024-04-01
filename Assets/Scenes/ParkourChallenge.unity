@@ -29658,6 +29658,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1983805390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983805365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe144703b1d48a14e851ac46a999c263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blurMaterial: {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
+  sigmaMaximum: 200
+  angularAccelerationThreshold: 4
+  accelerationModifier: 0.2
+  smoothness: 6
+  sigma: 18.2
+  useEditorValue: 1
+--- !u!114 &1983805391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983805365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8425091f6b79c3c4aa8a36e546c9bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1983805365}
+  circleEffectMaterial: {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915,
+    type: 2}
+  decaySpeed: 8
+  minViewValue: 0.5
+  maxViewValue: 20
+  decayRate: -0.001
+  angluarSpeedModifier: 0.1
+  translationSpeedModifier: 4
+  testRad: 0.5
+  viewRadius: 1.5200179
 --- !u!4 &1989593849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010915038424, guid: 6b9fef59fa39f0744ab9d260ec6266d0,
